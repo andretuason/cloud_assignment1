@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact Us! Matthew Tuason's website</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<header>
+    <a href="index.html">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="#">Contact Us</a>
+</header>
+
+<body>
+    <div class="formDiv">
+        <h1>Contact us!</h1>
+        <p>Please fill out this form with the required information</p>
+        <form method="post" action="mailto:m.tuason@mybvc.com">
+            <fieldset>
+                <legend>Name (required)</legend>
+                <label for="first-name">First Name: <input id="first-name" name="first-name" type="text"
+                        required /></label>
+                <label for="last-name">Last Name: <input id="last-name" name="last-name" type="text"
+                        required /></label>
+                <label for="email">Email: <input id="email" name="email" type="email" required /></label>
+            </fieldset>
+            <fieldset>
+                <legend>Account type (required)</legend>
+                <label for="personal-account"><input id="personal-account" type="radio" name="account-type"
+                        class="inline" checked /> Personal</label>
+                <label for="business-account"><input id="business-account" type="radio" name="account-type"
+                        class="inline" /> Business</label>
+            </fieldset>
+            <fieldset>
+                <label for="subject">Subject: <input id="subject" name="subject" type="text" required /></label>
+                <label for="profile-picture">Upload an attachment: <input id="profile-picture" type="file"
+                        name="file" /></label>
+                <label for="bday">Input your birthdate: <input id="bday" type="date" name="bday"/></label>
+                <label for="referrer">How did you hear about us?
+                    <select id="referrer" name="referrer">
+                        <option value="">(select one)</option>
+                        <option value="1">Facebook</option>
+                        <option value="2">Bow Valley College</option>
+                        <option value="3">LinkedIn</option>
+                        <option value="4">Other</option>
+                    </select>
+                </label>
+                <label for="bio">Provide some feedback:
+                    <textarea id="bio" name="bio" rows="3" cols="30"
+                        placeholder="What I like about this website..."></textarea>
+                </label>
+            </fieldset>
+            <label for="terms-and-conditions">
+                <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" />
+                I accept the <a href="https://loremipsum.io/">terms and conditions</a>
+            </label>
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+<footer>
+    <p>Assignment#1 Introduction to Cloud Security &copy; 2024 Matthew Andre Tuason</p>
+</footer>
+</html>

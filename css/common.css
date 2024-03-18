@@ -1,0 +1,49 @@
+* {
+    box-sizing: content-box;
+}
+
+:root {
+    --color1: #883746;
+    --color2: #f88379;
+    --color3: #149fb2;
+    --color4: #1e7e8e;
+    --color5: #24aebb;
+    --offwhite: #FAF9F6;
+
+}
+
+body {
+    background-color: var(--color1);
+    margin: 0;
+}
+
+footer p {
+    padding: 20px;
+
+}
+
+header {
+    text-align: left;
+
+}
+
+footer,
+header {
+    background-color: var(--color4);
+    color: var(--offwhite);
+    text-align: center;
+    height: 60px;
+    margin: 0;
+
+}
+
+footer p {
+    padding: 20px;
+}
+
+
+header {
+    text-align: left;
+    padding: 10px;
+
+}

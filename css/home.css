@@ -1,0 +1,42 @@
+.contentDiv{
+    width: 75%;
+    min-height: 1000px;
+    margin: 0 auto;
+    background-color:  var(--color5);
+    
+    
+}
+
+#welcomeImg{
+    display: block;
+    width: 50%;
+    height: 500px;
+    padding: 50px 5px;
+    margin: 0 auto;
+}
+
+#randoButton{
+    margin: 20px auto;
+    display: block;
+}
+
+.wut{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.wut h1, .wut li{
+    font-size: 24px;
+}
+.bienvenueDiv h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+#date-time{
+    text-align: center;
+    width: 50%;
+    font-size: 24px;
+    margin: 30px auto;
+}
